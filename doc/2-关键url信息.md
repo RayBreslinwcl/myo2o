@@ -19,3 +19,7 @@
 ## 2.2 http://localhost:8080/myo2o/frontend/index
 
 ![1590055107839](2-关键url信息.assets/1590055107839.png)
+
+## 2.3 localhost:8080/myo2o/shop/shopedit?shopId=25 修改商铺
+
+![1590071377642](2-关键url信息.assets/1590071377642.png)
