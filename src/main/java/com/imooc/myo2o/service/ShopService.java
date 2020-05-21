@@ -12,8 +12,8 @@ public interface ShopService {
 	/**
 	 * 查询该用户下面的店铺信息
 	 * 
-	 * @param long
-	 *            employyeeId
+	 * @param
+	 *            employeeId
 	 * @return List<Shop>
 	 * @throws Exception
 	 */
@@ -22,7 +22,7 @@ public interface ShopService {
 	/**
 	 * 查询指定店铺信息
 	 * 
-	 * @param long
+	 * @param
 	 *            shopId
 	 * @return Shop shop
 	 */
@@ -31,21 +31,28 @@ public interface ShopService {
 	/**
 	 * 创建商铺
 	 * 
-	 * @param Shop
+	 * @param
 	 *            shop
 	 * @return ShopExecution shopExecution
 	 * @throws Exception
 	 */
 	ShopExecution addShop(Shop shop, CommonsMultipartFile shopImg) throws RuntimeException;
 
+//	/**
+//	 * 更新店铺信息（从店家角度）
+//	 *
+//	 * @param areaId
+//	 * @param shopAddr
+//	 * @param phone
+//	 * @param shopImg
+//	 * @param shopDesc
+//	 * @return
+//	 * @throws RuntimeException
+//	 */
 	/**
 	 * 更新店铺信息（从店家角度）
-	 * 
-	 * @param areaId
-	 * @param shopAddr
-	 * @param phone
+	 * @param shop
 	 * @param shopImg
-	 * @param shopDesc
 	 * @return
 	 * @throws RuntimeException
 	 */

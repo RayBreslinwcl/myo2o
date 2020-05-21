@@ -4,9 +4,10 @@ import com.imooc.myo2o.dto.UserProductMapExecution;
 import com.imooc.myo2o.entity.UserProductMap;
 
 public interface UserProductMapService {
+
 	/**
-	 * 
-	 * @param shopId
+	 *
+	 * @param userProductCondition
 	 * @param pageIndex
 	 * @param pageSize
 	 * @return

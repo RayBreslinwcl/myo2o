@@ -138,6 +138,7 @@ public class ShopServiceImpl implements ShopService {
 			return new ShopExecution(ShopStateEnum.NULL_SHOPID);
 		} else {
 			try {
+				//1.判断是否需要处理图片
 				if (shopImg != null) {
 					Shop tempShop = shopDao.queryByShopId(shop.getShopId());
 					if (tempShop.getShopImg() != null) {

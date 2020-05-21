@@ -12,8 +12,7 @@ import com.imooc.myo2o.entity.ShopCategory;
 public interface ShopCategoryService {
 	/**
 	 * 查询指定某个店铺下的所有商品类别信息
-	 * 
-	 * @param long shopId
+	 *
 	 * @return List<ProductCategory>
 	 * @throws JsonProcessingException
 	 * @throws IOException
@@ -37,7 +36,7 @@ public interface ShopCategoryService {
 
 	/**
 	 * 
-	 * @param shopCategory
+	 * @param shopCategoryId
 	 * @return
 	 */
 	ShopCategory getShopCategoryById(Long shopCategoryId);
