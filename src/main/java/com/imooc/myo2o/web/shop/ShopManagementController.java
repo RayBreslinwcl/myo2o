@@ -162,6 +162,7 @@ public class ShopManagementController {
 		Shop currentShop = (Shop) request.getSession().getAttribute(
 				"currentShop");
 		shop.setShopId(currentShop.getShopId());
+		//2.注册店铺
 		if (shop != null && shop.getShopId() != null) {
 			filterAttribute(shop);
 			try {
